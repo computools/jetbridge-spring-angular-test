@@ -1,0 +1,14 @@
+.pagination-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+.pagination-container>*:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.page {
+  font-size: 1.2em;
+}

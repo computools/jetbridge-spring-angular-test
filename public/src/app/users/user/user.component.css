@@ -1,0 +1,15 @@
+.user-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+.user-container>* {
+  max-width: 20rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}

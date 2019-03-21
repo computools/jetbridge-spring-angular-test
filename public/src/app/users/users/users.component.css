@@ -1,0 +1,11 @@
+table {
+  width: 100%;
+}
+
+.filters>* {
+  margin-right: 0.5rem;
+}
+
+mat-button-toggle-group /deep/ .mat-button-toggle-label-content {
+  line-height: 36px;
+}

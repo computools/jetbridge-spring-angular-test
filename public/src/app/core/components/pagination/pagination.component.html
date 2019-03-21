@@ -1,0 +1,11 @@
+<div class="pagination-container">
+  <div class="page">Page: {{source.page + 1}}</div>
+  <button type="button"
+          mat-raised-button
+          [disabled]="!source.hasPrevious"
+          (click)="previous()">Previous</button>
+  <button type="button"
+          mat-raised-button
+          [disabled]="!source.hasNext"
+          (click)="next()">Next</button>
+</div>
